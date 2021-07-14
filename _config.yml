@@ -17,7 +17,7 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 # Site Settings
 locale                   : "ko-KR"
 title                    : "기록하는 개발자"
-title_separator          : "-" # 타이틀 사이 구분자
+title_separator          : "&#124;" # 타이틀 사이 구분자
 subtitle                 : "Version 1.0" # site tagline that appears below site title in masthead
 name                     : "박찬흠"
 description              : "PYTHON과 리눅스 등 다양한 개발을 공부하는 블로그"
@@ -30,7 +30,7 @@ masthead_title           : "기록하는 개발자의 Blog" # overrides the webs
 breadcrumbs              : # true, false (default)
 words_per_minute         : 200
 comments:
-  provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
+  provider               : "disqus" # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
   disqus:
     shortname            : "chanheum" # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
@@ -59,8 +59,8 @@ reCaptcha:
 atom_feed:
   path                   : # blank (default) uses feed.xml
   hide                   : # true, false (default)
-search                   : # true, false (default)
-search_full_content      : # true, false (default)
+search                   : "true" # true, false (default)
+search_full_content      : "true" # true, false (default)
 search_provider          : # lunr (default), algolia, google
 algolia:
   application_id         : # YOUR_APPLICATION_ID
@@ -102,9 +102,9 @@ analytics:
 # Site Author
 author:
   name             : "박찬흠"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "꾸준하게 공부하는 개발자 입니다. <br> 블로그 포스트 중에 잘못된 부분이나 수정이 필요한 부분에 대한 댓글 남겨주신다면 감사하겠습니다."
-  location         : "Republic Of Korea
+  avatar           : "/assets/avatar.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio              : "꾸준히 공부하는 개발자입니다. <br> 블로그 포스트 글에서 잘못된 부분이나 수정했으면 하는 부분, 적극적으로 댓글 남겨주신다면 감사하겠습니다."
+  location         : "Republic of Korea"
   email            : "xoxo_pch@naver.com"
   links:
     - label: "Email"
@@ -287,3 +287,4 @@ defaults:
       comments: # true
       share: true
       related: true
+      
