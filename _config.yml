@@ -101,11 +101,11 @@ analytics:
 
 # Site Author
 author:
-  name             : 
+  name             : "My Name"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "꾸준하게 공부하는 개발자 입니다. <br> 블로그 포스트 중에 잘못된 부분이나 수정이 필요한 부분에 대한 댓글 남겨주신다면 감사하겠습니다."
-  location         : "Republic Of Korea
-  email            : "xoxo_pch@naver.com"
+  bio              : "I am an **amazing** person."
+  location         : "Somewhere"
+  email            :
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
