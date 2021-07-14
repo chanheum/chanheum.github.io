@@ -101,11 +101,11 @@ analytics:
 
 # Site Author
 author:
-  name             : "My Name"
+  name             : "박찬흠"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Somewhere"
-  email            :
+  bio              : "꾸준히 공부하는 개발자입니다. <br> 블로그 포스트 글에서 잘못된 부분이나 수정했으면 하는 부분, 적극적으로 댓글 남겨주신다면 감사하겠습니다."
+  location         : "Republic of Korea""
+  email            : "xoxo_pch@naver.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
